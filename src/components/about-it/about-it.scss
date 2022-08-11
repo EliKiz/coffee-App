@@ -1,0 +1,42 @@
+.section-inner--wide {
+    display: flex;
+    padding: 80px 120px;
+}
+.aboutIt__wrapper {
+    
+    &-img { 
+        img { 
+            box-shadow: none
+        }
+       
+    }
+    &-descr { 
+        margin-left: 20px;
+
+    }
+    &-text { 
+        text-align: left;
+        
+
+        &-country { 
+            padding-top: 25px;
+            span { 
+                font-weight: 700;
+            }
+        }
+        &-main{ 
+            padding-top: 15px;
+            span { 
+                font-weight: 700;
+            }
+        }
+        &-price{ 
+            padding-top: 15px;
+            font-size: 21px;
+            font-weight: 700;
+            span { 
+                font-weight: 900;
+            }
+        }
+    }
+}

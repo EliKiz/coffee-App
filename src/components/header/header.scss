@@ -1,0 +1,47 @@
+
+.header { 
+   font-size: 16px;
+   &__nav { 
+    display: flex;
+   }
+   .section-inner {
+    margin: 0;
+   }
+    &__wrapper { 
+        padding-left: 0px;
+        &-nav{ 
+            
+            min-width: 355px ;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            list-style-type: none;
+            &-white { 
+                color: white;
+            }
+            &-black { 
+                color: black;
+            }
+            &-item { 
+                
+                &-link { 
+                    
+                    opacity: 0.8;
+                    transition: .3s; 
+                    &:hover { 
+                        opacity: 1;
+                    }
+                    &-white { 
+                        color: white;
+                    }
+                    &-black { 
+                        color: black;
+                    }
+                }
+
+                
+            }
+        }
+    }   
+    
+}

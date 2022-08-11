@@ -1,0 +1,53 @@
+
+.coffee-card {
+	width: 220px;
+	min-height: 260px;
+    
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 37px 24px 22px;
+	filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+
+	cursor: pointer;
+
+	&__img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	&__name,
+	&__country,
+	&__price {
+		margin-top: 14px;
+		font-weight: 700;
+		font-size: 13px;
+		line-height: 20px;
+		text-align: right;
+
+	}
+    &__country { 
+        font-weight: 400;
+    }
+	&__price {
+		font-weight: 700;
+	}
+
+	&_our-best {
+		width: 220px;
+		min-height: 240px;
+		padding-top: 22px;
+		background: rgba(255, 255, 255, 0.65);
+		&:hover  {
+            background: rgba(255, 255, 255, 0.50);
+        }
+
+		&:nth-of-type(3) {
+			padding-top: 37px;
+            margin-right: 0;
+		}
+
+		.coffee-card__price {
+			margin-top: 10px;
+		}
+	}
+}
